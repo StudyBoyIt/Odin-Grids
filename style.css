@@ -1,26 +1,19 @@
-#container {
-    width: 250px;
-    height: 250px;
+/* body {
     display: flex;
-    border: 3px solid blue;
+    text-align: center;
+    flex-direction: column;
+} */
+
+#container {
+    width: 960px;
+    height: 960px;
+    display: flex;
     flex-wrap: wrap;
-    align-content: stretch;
+    border: 2px solid blue; 
+    background-color: white;
 }
 
-#boxes {
-    margin: 1px;
-    border: 2px solid black;
-    flex-grow: 1;
-    width: 40px;
-    height: 40px;
-} 
-
-/* flex-wrap: wrap;
-margin: 5px;
-  width: 200px;
-  height: 200px;
-  margin: auto; */
- 
-/* * {
-box-sizing: border-box;
+/* button {
+    width: 80px;
+    height: 50px;
 } */
